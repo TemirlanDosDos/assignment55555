@@ -1,31 +1,36 @@
 # Assignment 5: JavaScript Basics
 
-Name: Temirlan
+Name: Temirlan  
 Group: IT-2502
 
-Repository: https://github.com/TemirlanDosDos/assignment55555
+Repository: https://github.com/TemirlanDosDos/assignment55555  
 Website: Vercel deployment pending
 
 ## What I made
 
 ### 1. Profile and JavaScript values
 
-Created a userProfile object with a name, birth year, developer status, and hobbies. The script calculates the age, counts the hobbies, and displays the profile information.
+Created a `userProfile` object with a name, birth year, developer status, and hobbies. The script calculates the age from the birth year, counts the hobbies, and displays the profile information on the page.
 
 ### 2. Profile form
 
-Added fields for a username and birth year. Submitting the form updates the profile and displays the new name and age without reloading the page.
+Added fields for a username and birth year. When the form is submitted, JavaScript reads the entered values, updates the profile object, calculates the age, and displays the updated profile without reloading the page.
 
 ### 3. Hobby list
 
-Added a list, a text field, and Add Item and Remove Last Item buttons. The first button adds the entered hobby; the second removes the last hobby.
+Added a list of hobbies, a text field, and **Add Item** and **Remove Last Item** buttons. The Add button puts the entered hobby into the list. The Remove button deletes the last hobby in the list.
 
 ## Screenshots
 
-- Part 1: part-1-profile.png — profile information and hobby count.
-- Part 2: part-2-form.png — profile after submitting the form.
-- Part 3: part-3-hobbies.png — hobby list after adding a hobby.
+### Part 1: Profile and JavaScript values
+![Part 1: Profile and JavaScript values](part-1-profile.png)
+
+### Part 2: Profile form
+![Part 2: Profile form](part-2-form.png)
+
+### Part 3: Add and remove hobbies
+![Part 3: Add and remove hobbies](part-3-hobbies.png)
 
 ## Result
 
-The page displays and updates a profile and lets the user add or remove hobbies.
+The page displays profile information, updates it from the form, and lets the user add or remove hobbies.
