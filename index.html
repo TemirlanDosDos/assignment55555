@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 5</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Assignment 5</h1>
+
+    <section>
+      <h2>My Profile</h2>
+      <form id="profile-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="birth-year">Birth year:</label>
+        <input type="number" id="birth-year" required>
+
+        <button type="submit">Create / Update Profile</button>
+      </form>
+      <p id="profile-result"></p>
+      <p>Age: <span id="age-value"></span></p>
+      <p>Hobbies: <span id="hobby-count"></span></p>
+      <p>Developer: <span id="developer-value"></span></p>
+    </section>
+
+    <section>
+      <h2>My Hobbies</h2>
+      <ul id="hobby-list"></ul>
+      <form id="hobby-form">
+        <label for="new-hobby">New hobby:</label>
+        <input type="text" id="new-hobby">
+        <button type="submit" id="add-hobby">Add Item</button>
+      </form>
+      <button type="button" id="remove-hobby">Remove Last Item</button>
+      <p id="hobby-message"></p>
+    </section>
+  </main>
+</body>
+</html>
